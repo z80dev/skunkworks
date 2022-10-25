@@ -28,10 +28,6 @@ contract SimpleStoreTest is Test {
         simpleStore.setValue(value);
         vyperStore.setValue(value);
         dasyStore.setValue(value);
-        console.log(value);
-        console.log(simpleStore.getValue());
-        console.log(vyperStore.getValue());
-        console.log(dasyStore.getValue());
         assertEq(value, simpleStore.getValue());
         assertEq(simpleStore.getValue(), vyperStore.getValue());
         assertEq(simpleStore.getValue(), dasyStore.getValue());
