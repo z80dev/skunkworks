@@ -1,9 +1,5 @@
-<img align="right" width="150" height="150" top="100" src="./assets/blueprint.png">
 
-# huff-project-template • [![ci](https://github.com/huff-language/huff-project-template/actions/workflows/ci.yaml/badge.svg)](https://github.com/huff-language/huff-project-template/actions/workflows/ci.yaml) ![license](https://img.shields.io/github/license/huff-language/huff-project-template.svg) ![solidity](https://img.shields.io/badge/solidity-^0.8.15-lightgrey)
-
-Versatile Huff Project Template using Foundry.
-
+A Foundry playground for Vyper, Dasy, and Huff contracts
 
 ## Getting Started
 
@@ -19,19 +15,12 @@ The following will need to be installed in order to use this template. Please fo
     -   To get the latest of each, just run `foundryup`
 -   [Huff Compiler](https://docs.huff.sh/get-started/installing/)
     -   You'll know you've done it right if you can run `huffc --version` and get an output like: `huffc 0.3.0`
+-   [Dasy Compiler](https://github.com/dasylang/dasy)
+    -   You'll know you've done it right if you can run `which dasy` and get an output
 
 ### Quickstart
 
-1. Clone this repo or use template
-
-Click "Use this template" on [GitHub](https://github.com/huff-language/huff-project-template) to create a new repository with this repo as the initial state.
-
-Or run:
-
-```
-git clone https://github.com/huff-language/huff-project-template
-cd huff-project-template
-```
+1. Clone this repo 
 
 2. Install dependencies
 
@@ -62,7 +51,7 @@ lib
 scripts
 ├─ Deploy.s.sol — Deployment Script
 src
-├─ SimpleStore — A Simple Storage Contract in Huff
+├─ SimpleStore — A Simple Storage Contract in Huff/Vyper/Dasy
 test
 └─ SimpleStore.t — SimpleStoreTests
 ```
