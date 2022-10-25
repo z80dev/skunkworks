@@ -1,4 +1,3 @@
-
 A Foundry playground for Vyper, Dasy, and Huff contracts
 
 ## Getting Started
